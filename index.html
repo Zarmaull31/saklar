@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+    body{
+        background-color: #777;
+    }
+    a{
+        text-decoration: none;
+    }
+    h3, a{
+        color: whitesmoke;
+        justify-content: center;
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>SAKLAR LAMPU JAVASCRIPT</h1>
+    <div class="d-flex my-4 justify-content-center align-items-center gap-1">
+        <img src="image/off.gif" alt="lampu" id="lampu1">
+        <div class="form-check form-switch ms-4">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault1" onchange="saklar()">
+          </div>
+        <!-- <button type="button" class="btn btn-primary btn-sm" onclick="saklar('on', 1)" id="hidupkan1">NYALAKAN LAMPU 1</button>
+        <button type="button" class="btn btn-danger btn-sm" onclick="saklar('off', 1)">MATIKAN LAMPU 1</button> -->
+    </div>
+    <!-- LAMPU 1 -->
+  
+
+    <!-- LAMPU 2 -->
+    <div class="d-flex justify-content-center mx-auto align-items-center gap-1">
+        <img src="image/off.gif" alt="lampu" id="lampu2">
+        <div class="form-check form-switch ms-4">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault2" onchange="saklar()">
+          </div>
+        <!-- <button type="button" class="btn btn-primary btn-sm" onclick="saklar('on', 2)">NYALAKAN LAMPU 2</button>
+        <button type="button" class="btn btn-danger btn-sm" onclick="saklar('off', 2)">MATIKAN LAMPU 2</button> -->
+    </div>
+   
+
+    <!-- LAMPU 3 -->
+    <div class="d-flex my-4 justify-content-center align-items-center gap-1">
+        <img src="image/off.gif" alt="lampu" id="lampu3" class="d-flex justify-content-center">
+        <div class="form-check form-switch ms-4">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault3" onchange="saklar()">
+          </div>
+        <!-- <button type="button" onclick="saklar('on', 3)" class="btn btn-primary btn-sm" >NYALAKAN LAMPU 3</button>
+        <button type="button" class="btn btn-danger btn-sm" onclick="saklar('off', 3)">MATIKAN LAMPU 3</button> -->
+    </div>
+    <h3>By : <a href="https://www.instagram.com/fazar.m177/">FAZAR MAULANA</a></h3>
+</body>
+<script src="saklar.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
